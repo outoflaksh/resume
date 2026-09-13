@@ -17,7 +17,7 @@ jobs:
       - name: Prepare file for Pages
         run: |
           mkdir public
-          mv main.pdf public/index.pdf # 📁 Moves your PDF to a folder for deployment
+          mv resume.pdf public/index.pdf # 📁 Moves your PDF to a folder for deployment
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
